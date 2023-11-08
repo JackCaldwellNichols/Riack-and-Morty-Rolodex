@@ -1,0 +1,37 @@
+.pagination {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: blue;
+    list-style-type: none;
+}
+
+.prev{
+    background-color: blue;
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+    border-radius: 3px;
+}
+.next{
+    background-color: blue;
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+    border-radius: 3px;
+}
+
+.active {
+    color: red;
+    text-decoration: none   ;
+}
+
+.page-item{
+    color: green;
+}
+
+.page-link{
+    border: 1px solid lightblue;
+    padding: 3px;
+    cursor: pointer;
+}
